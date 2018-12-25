@@ -1,4 +1,4 @@
-﻿package com.example.one19.whack;
+package com.example.one19.whack;
 
 import android.app.Activity;
 import android.database.Cursor;
@@ -15,8 +15,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class HighScoreActivity extends Activity {
-
-
 
     private ListView listView;
     private ArrayAdapter<String> adapter;
@@ -73,7 +71,6 @@ public class HighScoreActivity extends Activity {
             }
             adapter.notifyDataSetChanged();
             c.close();
-
         }
 
 

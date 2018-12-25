@@ -124,6 +124,6 @@
         android:layout_alignBottom="@+id/timeTextView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-17dp"
-        android:text="功能" />
+        android:text="選單" />
 </RelativeLayout>
 
